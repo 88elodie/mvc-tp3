@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    padding-left: 30px;
+    background: rgb(218, 193, 208);
+    /* background-image: url("https://jooinn.com/images/wrinkled-paper-3.jpg"); */
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+input, select {
+    padding: 10px;
+    width: 150px;
+}
+
+.error{
+    color: red;
+}
+
+.home-index {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-index h1 {
+    margin: 20px;
+}
+
+.home-index a {
+    padding: 10px;
+    display: block;
+}
+
+.book-list, .book-form, main {
+    margin: 40px;
+    background-color: rgba(177, 197, 184, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.book-list .carte {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.book-list a {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(131, 157, 140);
+    display: inline-block;
+    width: fit-content;
+    color: black;
+    text-decoration: none;
+}
+
+.book-list a:hover {
+    background-color: blanchedalmond;
+}
+
+.carte img {
+    height: 200px;
+    width: auto;
+}
+
+.carte div {
+    max-width: 50%;
+}
+
+.book-list form {
+    display: inline;
+    width: fit-content;
+}
+
+.book-list form input, .book-form input[type='submit']{
+    background-color: rgb(131, 157, 140);
+    border:none;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.book-list form input:hover, .book-form input[type='submit']:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+.book-form input, .book-form textarea, .book-form select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.book-form h1 {
+    margin-bottom: 40px;
+}
+
